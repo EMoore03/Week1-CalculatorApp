@@ -11,6 +11,9 @@ int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Type in the second number followed by the enter key");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-int result = firstNumber + secondNumber;
+Console.WriteLine("Type in the third number followed by the enter key");
+int thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+int result = firstNumber + secondNumber + thirdNumber;
 
 Console.WriteLine("Adding {0} and {1} gives the answer {2}", firstNumber, secondNumber, result);
